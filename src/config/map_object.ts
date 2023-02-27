@@ -6,5 +6,5 @@ export const Map_object = {
     "eanCode": "eanCode",
     "externalProductCode": "supplierCode",
     "costPrice": "costPrice",
-    "packingUnitInfo": [["packageDescription"]],
+    "packingUnitInfo": "packageDescription",
 }
