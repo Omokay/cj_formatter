@@ -3,7 +3,7 @@
  */
 
 const products = {
-    names: '',
+    names: [],
     language: 'EN',
     parent: {
         sourceId: '',
