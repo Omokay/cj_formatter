@@ -52,6 +52,7 @@ async function mergeFields(mappedObject: {}): Promise<{}> {
             }
             else if (key === 'package' && mappedObject['packageDescription']) {
                 result[key] = mappedObject['packageDescription']['unitInfo']['id'];
+                mappedObject['packageDescription'] = [mappedObject['packageDescription']];
             }
             else {
                 result[key] = products[key];

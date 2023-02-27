@@ -1,10 +1,10 @@
 export const Map_object = {
     "productCode": "sku",
-    "shortName": "descriptions",
+    "description": "shortName",
     "productNotes": "notes",
     "locationCode": "sourceId",
     "eanCode": "eanCode",
     "externalProductCode": "supplierCode",
     "costPrice": "costPrice",
-    "packingUnitInfo": "packageDescription",
+    "packingUnitInfo": [["packageDescription"]],
 }
