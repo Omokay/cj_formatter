@@ -1,0 +1,19 @@
+{
+  "name": "propeller_json_formatter",
+  "version": "1.0.0",
+  "description": "A program that formats json from a source to a propeller json",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/src/index.js",
+    "compile": "tsc"
+  },
+  "author": "Omoke Chuku",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "object-mapper": "^6.2.0"
+  }
+}
